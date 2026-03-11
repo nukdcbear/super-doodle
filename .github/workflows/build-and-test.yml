@@ -42,5 +42,5 @@ jobs:
         name: Build and push
         uses: docker/build-push-action@v6
         with:
-          push: false
-          tags: nukdcbear/super-doodle:latest
+          push: true
+          tags: ghcr.io/nukdcbear/super-doodle:latest
